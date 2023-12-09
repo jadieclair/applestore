@@ -1,0 +1,49 @@
+.bagsidebar {
+  width: 250px;
+  background-color: #e5e5e5;
+  padding: 15px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+.bag-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.bag-item-image {
+  width: 60px;
+  height: auto;
+  margin: 5px;
+}
+
+.view-bag-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.view-bag-button:hover {
+  background-color: #f0ec05;
+}
+.line {
+  position: fixed;
+  border-left: 6px solid rgba(26, 31, 22, 0.5);
+  width: 4px;
+  left: 80.5%;
+  margin-left: 8px;
+  top: 30px;
+  bottom: 30px;
+}

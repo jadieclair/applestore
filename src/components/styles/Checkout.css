@@ -1,0 +1,169 @@
+.checkout-container {
+  width: 70%;
+  background-color: #ebeaea;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.user-info,
+.Bag-info,
+.payment-info,
+.billing-info,
+.gift-card-info {
+  width: 871px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 13px;
+  background: var(--ui-white, #fff);
+  
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.bag-render {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  margin-left: -135px;
+}
+
+.shipping-title {
+  color: var(--font-dark, #1a1f16);
+  font-family: Cabin;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 7.813px;
+  text-transform: uppercase;
+}
+
+.ship-icons {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.green-check {
+  margin-right: 5px;
+}
+
+.cart-info{
+  width: 871px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 13px;
+  background: var(--ui-white, #fff);
+}
+.shipping-change,
+.payment-change {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-40%);
+  border-radius: 8px;
+  width: 60px;
+}
+.user-info p {
+  margin: 2px 0;
+  color: var(--font-dark, #1A1F16);
+}
+
+.payment-info p {
+  margin: 2px 0;
+  color: var(--font-dark, #1A1F16);
+}
+
+.review-heading{
+  color: var(--font-dark, #1a1f16);
+  font-family: Cabin;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 7.813px;
+  text-transform: uppercase;
+}
+.cart-content{
+  margin-left: 2px;
+}
+
+.review-img{
+  width: 100px;
+  margin-top: 55px;
+  height: auto;
+  margin-left: -22px;
+}
+
+.review-title{
+  margin-left: 90px;
+  color: var(--font-dark, #1A1F16);
+  margin-top: -170px;
+}
+
+.review-description{
+  margin-left: 90px;
+  color: var(--font-dark, #1A1F16);
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.review-description-r{
+  margin-left: 90px;
+  color: var(--font-dark, #1A1F16);
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.review-quantity-button-minus{
+  color: red;
+  border: none;
+  width: 30px;
+  background-color: white;
+  font-size: 28px;
+  margin-top: -30px;
+  margin-left: 350px;
+}
+
+.review-quantity-button-plus{
+  color: green;
+  border: none;
+  width: 30px;
+  background-color: white;
+  font-size: 28px;
+  margin-top: -30px;
+  margin-left: 5px;
+}
+
