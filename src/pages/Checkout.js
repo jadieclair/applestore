@@ -28,12 +28,11 @@ const Checkout = () => {
         <h3 className="shipping-title">SHIPPING ADDRESS</h3>
         <p>{storedUser.name}</p>
         <p>{storedUser.shippingAddress.street}</p>
-        <p>{storedUser.shippingAddress.city}, {storedUser.shippingAddress.state}</p>
+        <p>
+          {storedUser.shippingAddress.city}, {storedUser.shippingAddress.state}
+        </p>
         <p>{storedUser.shippingAddress.country}</p>
-        <button
-          className="shipping-change"
-          onClick={handleChangeUserInfo}
-        >
+        <button className="shipping-change" onClick={handleChangeUserInfo}>
           Change
         </button>
       </div>
@@ -51,7 +50,8 @@ const Checkout = () => {
               d="M1.5 17.625C1.5 18.3212 1.77656 18.9889 2.26884 19.4812C2.76113 19.9734 3.42881 20.25 4.125 20.25H19.875C20.5712 20.25 21.2389 19.9734 21.7312 19.4812C22.2234 18.9889 22.5 18.3212 22.5 17.625V10.4062H1.5V17.625ZM4.59375 14.0625C4.59375 13.6895 4.74191 13.3319 5.00563 13.0681C5.26935 12.8044 5.62704 12.6562 6 12.6562H8.25C8.62296 12.6562 8.98065 12.8044 9.24437 13.0681C9.50809 13.3319 9.65625 13.6895 9.65625 14.0625V15C9.65625 15.373 9.50809 15.7306 9.24437 15.9944C8.98065 16.2581 8.62296 16.4062 8.25 16.4062H6C5.62704 16.4062 5.26935 16.2581 5.00563 15.9944C4.74191 15.7306 4.59375 15.373 4.59375 15V14.0625ZM19.875 3.75H4.125C3.42881 3.75 2.76113 4.02656 2.26884 4.51884C1.77656 5.01113 1.5 5.67881 1.5 6.375V7.59375H22.5V6.375C22.5 5.67881 22.2234 5.01113 21.7312 4.51884C21.2389 4.02656 20.5712 3.75 19.875 3.75Z"
               fill="#1A1F16"
             />
-          </svg>{""}
+          </svg>
+          {""}
           {paymentMethod?.cardNumber || storedUser.paymentMethod.cardNumber}
         </p>
         <p>
@@ -70,35 +70,28 @@ const Checkout = () => {
           $ 53.21 gift card balance
         </p>
         <p>
-           <svg
-                className="greencheck"
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  x="1"
-                  y="1"
-                  width="16"
-                  height="16"
-                  rx="2"
-                  stroke="#60695C"
-                  stroke-linejoin="round"
-                />
-                <rect
-                  x="3"
-                  y="3"
-                  width="12"
-                  height="12"
-                  rx="1"
-                  fill="#12805D"
-                />
-              </svg>
+          <svg
+            className="greencheck"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="1"
+              y="1"
+              width="16"
+              height="16"
+              rx="2"
+              stroke="#60695C"
+              strokeLinejoin="round"
+            />
+            <rect x="3" y="3" width="12" height="12" rx="1" fill="#12805D" />
+          </svg>
           Billing Address same as Shipping Address
         </p>
-        
+
         <Link to="/ChangePaymentInfo">
           <button className="payment-change">Change</button>
         </Link>
@@ -106,54 +99,50 @@ const Checkout = () => {
       <div className="cart-info">
         <h3 className="review-heading">REVIEW YOUR BAG</h3>
         <div className="cart-content">
-        {/* Mapping through bag items */}
-        {bagItems.map((item) => (
-          <div className="bag-item-details" key={item.id}>
-            {/* Display item details */}
-            <img
+          {/* Mapping through bag items */}
+          {bagItems.map((item) => (
+            <div className="bag-item-details" key={item.id}>
+              {/* Display item details */}
+              <img
                 src={item.imageUrl}
                 alt={item.title}
                 className="review-img"
               />
-            <h2 className="review-title">{item.title}</h2>
-            <p className="review-description">{item.description}</p>
-            <p className="review-description">{item.brief}</p>
-            <p
-              className="review-description-r"
-              style={{ color: "#12805D" }}
-            >
-              {item.rating}
-            </p>
-            <p className="review-description">
-              {item.currency} {item.price.toFixed(2)}
-            </p>
-            {/* Decrease item quantity */}
-            <button
-              className="review-quantity-button-minus"
-              onClick={() => {
-                if (item.quantity <= 1) {
-                  removeFromBag(item);
-                } else {
-                  updateQuantity(item, item.quantity - 1);
-                }
-              }}
-            >
-              -
-            </button>
-            <span className="review-quantity">{item.quantity}</span>
-            {/* Increase item quantity */}
-            <button
-              className="review-quantity-button-plus"
-              onClick={() => updateQuantity(item, item.quantity + 1)}
-            >
-              +
-            </button>
-          </div>
-        
-        ))}
+              <h2 className="review-title">{item.title}</h2>
+              <p className="review-description">{item.description}</p>
+              <p className="review-description">{item.brief}</p>
+              <p className="review-description-r" style={{ color: "#12805D" }}>
+                {item.rating}
+              </p>
+              <p className="review-description">
+                {item.currency} {item.price.toFixed(2)}
+              </p>
+              {/* Decrease item quantity */}
+              <button
+                className="review-quantity-button-minus"
+                onClick={() => {
+                  if (item.quantity <= 1) {
+                    removeFromBag(item);
+                  } else {
+                    updateQuantity(item, item.quantity - 1);
+                  }
+                }}
+              >
+                -
+              </button>
+              <span className="review-quantity">{item.quantity}</span>
+              {/* Increase item quantity */}
+              <button
+                className="review-quantity-button-plus"
+                onClick={() => updateQuantity(item, item.quantity + 1)}
+              >
+                +
+              </button>
+            </div>
+          ))}
+        </div>
       </div>
-      </div>
-      
+
       <OrderSummary total={total} />
     </div>
   );

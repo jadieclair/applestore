@@ -15,8 +15,8 @@ const SideBar = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M13.8793 0.981992H6.39921L5.49446 5.6847H4.49446L5.58679 0.00699238H6.18755L6.1889 0H15.0544L15.053 0.00699238H15.0669L13.9746 5.6847H12.9746L13.8793 0.981992Z"
                 fill="#105E46"
               />
@@ -47,9 +47,9 @@ const SideBar = () => {
               <path
                 d="M4.125 7.83417H12H19.875M4.125 12.7092H19.875M4.125 17.5842H19.875"
                 stroke="#1A1F16"
-                stroke-width="2"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
+                strokeWidth="2"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
               />
             </svg>
           </a>

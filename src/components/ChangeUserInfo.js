@@ -118,7 +118,7 @@ const ChangeUserInfo = () => {
                 height="16"
                 rx="2"
                 stroke="#60695C"
-                stroke-linejoin="round"
+                strokeLinejoin="round"
               />
               <rect x="3" y="3" width="12" height="12" rx="1" fill="#12805D" />
             </svg>

@@ -64,8 +64,8 @@ const products = [
             <path
               d="M23.1556 9.75H15.0931L12.6556 2.25L10.2181 9.75H2.15564L8.71814 14.25L6.18689 21.75L12.6556 17.0625L19.1244 21.75L16.5931 14.25L23.1556 9.75Z"
               stroke="#12805D"
-              stroke-width="2"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinejoin="round"
             />
             <path
               d="M12.6556 2.25V17.0625L6.18689 21.75L8.71814 14.25L2.15564 9.75H10.2181L12.6556 2.25Z"
@@ -164,11 +164,11 @@ const products = [
     brief:
       "The Sony ZX330BT headphones in Light Grey offer wireless convenience through Bluetooth connectivity. With powerful audio drivers and a built-in microphone, they provide clear sound quality and hands-free calling. Their lightweight design and stylish Light Grey color make them a comfortable and fashionable audio accessory.",
     imageUrl:
-      "https://uctech.com.my/wp-content/uploads/2020/08/kiran-ck-LSNJ-pltdu8-unsplash-1-scaled-e1597280815183-839x1024.jpg",
+      "https://static.wixstatic.com/media/7e0e74_c54f705475484956bf3267aa68e1131d~mv2.jpg/v1/fill/w_343,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kiran-ck-LSNJ-pltdu8-unsplash_edited.jpg",
     additionalImages: [
-      "https://uctech.com.my/wp-content/uploads/2020/08/kiran-ck-LSNJ-pltdu8-unsplash-1-scaled-e1597280815183-839x1024.jpg", // Replace with actual small image URLs
-      "https://uctech.com.my/wp-content/uploads/2020/08/kiran-ck-LSNJ-pltdu8-unsplash-1-scaled-e1597280815183-839x1024.jpg",
-      "https://uctech.com.my/wp-content/uploads/2020/08/kiran-ck-LSNJ-pltdu8-unsplash-1-scaled-e1597280815183-839x1024.jpg",
+      "https://static.wixstatic.com/media/7e0e74_c54f705475484956bf3267aa68e1131d~mv2.jpg/v1/fill/w_343,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kiran-ck-LSNJ-pltdu8-unsplash_edited.jpg", // Replace with actual small image URLs
+      "https://static.wixstatic.com/media/7e0e74_c54f705475484956bf3267aa68e1131d~mv2.jpg/v1/fill/w_343,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kiran-ck-LSNJ-pltdu8-unsplash_edited.jpg",
+      "https://static.wixstatic.com/media/7e0e74_c54f705475484956bf3267aa68e1131d~mv2.jpg/v1/fill/w_343,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kiran-ck-LSNJ-pltdu8-unsplash_edited.jpgg",
     ],
     specs:
       "The Sony ZX330BT headphones in Light Grey are a stylish and convenient audio accessory designed to enhance your listening experience. With Bluetooth connectivity, you can seamlessly pair these headphones with your devices, freeing you from tangled wires. The lightweight design ensures comfort during prolonged use. Boasting powerful drivers, these headphones deliver crisp and dynamic audio, allowing you to enjoy your favorite music with clarity. The built-in microphone enables hands-free calling, making them versatile for both entertainment and communication. The headphones feature intuitive controls for playback and call management directly on the ear cups. With a long battery life, you can enjoy your tunes for extended periods without interruption. The Light Grey color adds a touch of elegance to the headphones' sleek design, making them a fashionable accessory for your everyday activities.",
@@ -226,8 +226,8 @@ const products = [
             <path
               d="M23.1556 9.75H15.0931L12.6556 2.25L10.2181 9.75H2.15564L8.71814 14.25L6.18689 21.75L12.6556 17.0625L19.1244 21.75L16.5931 14.25L23.1556 9.75Z"
               stroke="#12805D"
-              stroke-width="2"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinejoin="round"
             />
             <path
               d="M12.6556 2.25V17.0625L6.18689 21.75L8.71814 14.25L2.15564 9.75H10.2181L12.6556 2.25Z"
@@ -494,8 +494,8 @@ const products = [
             <path
               d="M23.1556 9.75H15.0931L12.6556 2.25L10.2181 9.75H2.15564L8.71814 14.25L6.18689 21.75L12.6556 17.0625L19.1244 21.75L16.5931 14.25L23.1556 9.75Z"
               stroke="#12805D"
-              stroke-width="2"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinejoin="round"
             />
             <path
               d="M12.6556 2.25V17.0625L6.18689 21.75L8.71814 14.25L2.15564 9.75H10.2181L12.6556 2.25Z"
@@ -678,8 +678,8 @@ const products = [
             <path
               d="M23.1556 9.75H15.0931L12.6556 2.25L10.2181 9.75H2.15564L8.71814 14.25L6.18689 21.75L12.6556 17.0625L19.1244 21.75L16.5931 14.25L23.1556 9.75Z"
               stroke="#12805D"
-              stroke-width="2"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinejoin="round"
             />
             <path
               d="M12.6556 2.25V17.0625L6.18689 21.75L8.71814 14.25L2.15564 9.75H10.2181L12.6556 2.25Z"
